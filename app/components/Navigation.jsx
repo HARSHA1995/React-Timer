@@ -1,5 +1,7 @@
 var React = require('react');
 var {Link, IndexLink} = require('react-router');
+var Timer = require('Timer');
+var Countdown = require('Countdown');
 
 var Navigation = () => {
   return (
@@ -13,7 +15,7 @@ var Navigation = () => {
             <IndexLink to="/" activeClassName="active-link">Timer</IndexLink>
           </li>
           <li>
-            <Link to="/" activeClassName="active-link">Countdown</Link>
+            <Link to="/Countdown" activeClassName="active-link">Countdown</Link>
           </li>
         </ul>
       </div>
